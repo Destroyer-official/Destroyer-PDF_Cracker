@@ -19,7 +19,7 @@ Harness the power of parallel processing to explore password cracking techniques
 
 ```
 .
-├── parallel-pdf-cracker.py
+├── pdf_cracker.py
 ├── README.md
 ├── requirements.txt
 └── ...
