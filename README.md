@@ -37,12 +37,12 @@ Harness the power of parallel processing to explore password cracking techniques
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your_username/parallel-pdf-cracker.git
+    git clone https://github.com/Destroyer-official/EthicalPDFCracker.git
     ```
 
 2. **Navigate to the directory:**
     ```bash
-    cd parallel-pdf-cracker
+    cd EthicalPDFCracker
     ```
 
 3. **📦 Install the required packages:**
