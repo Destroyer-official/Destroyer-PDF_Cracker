@@ -52,7 +52,7 @@ Harness the power of parallel processing to explore password cracking techniques
 
 4. **✨ Execute the script:**
     ```bash
-    python parallel-pdf-cracker.py -pdf <path_to_pdf_file> -password <path_to_password_list>
+    python pdf_cracker.py -pdf <path_to_pdf_file> -password <path_to_password_list>
     ```
 
 ## **Optional Arguments**
@@ -64,12 +64,12 @@ Harness the power of parallel processing to explore password cracking techniques
 **Example Usage:**
 
 ```bash
-python parallel-pdf-cracker.py -pdf "encrypted_file.pdf" -password "passwords.txt" -ch 5000 -pr 30 -thr 10
+python pdf_cracker.py -pdf "encrypted_file.pdf" -password "passwords.txt" -ch 5000 -pr 30 -thr 10
 ```
 
 ## 📚 How It Works
 
-The `parallel-pdf-cracker.py` script is designed to efficiently crack the password of encrypted PDF files by leveraging parallel processing. Here's a breakdown of its key components and functionality:
+The `pdf_cracker.py` script is designed to efficiently crack the password of encrypted PDF files by leveraging parallel processing. Here's a breakdown of its key components and functionality:
 
 1. **🔐 Password Decryption Attempt:**
     - The script attempts to decrypt the PDF file using a list of passwords provided in the specified password list file.
