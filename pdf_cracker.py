@@ -91,7 +91,6 @@ def get_user_input(prompt, default_value=None):
     user_input = input(f"{prompt} [{default_value}]: ")
     return user_input if user_input else default_value
 
-
 def get_command_line_arguments():
     """
     Parse command-line arguments and return the parsed arguments.
