@@ -1,5 +1,5 @@
-
-<div align="center">
+ <div align="center">
+# 📕 EthicalPDFCracke 🔓 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.6%2B-blue.svg)](https://www.python.org/downloads/)
@@ -8,15 +8,15 @@
 
 ---
 
-## Disclaimer
+## 🚨 Disclaimer 🚨
 
 **IMPORTANT:** Password cracking, even for educational purposes, can be risky and may violate ethical or legal standards. Always respect copyright and digital rights. Exercise caution and ensure you have the necessary permissions before attempting to crack any PDF passwords. This script is intended for educational use only to demonstrate parallel processing and password cracking techniques. It is not intended for malicious or unauthorized use.
 
-## Overview
+## 🌟 Overview
 
-The Parallel PDF Password Cracker harnesses the power of parallel processing to explore password cracking techniques in a controlled educational setting. This Python script maximizes CPU utilization to accelerate password cracking attempts on encrypted PDF files.
+The Parallel PDF Password Cracker utilizes parallel processing to explore password cracking techniques in a controlled educational environment. This Python script maximizes CPU utilization to accelerate password cracking attempts on encrypted PDF files.
 
-## Project Structure
+## 📂 Project Structure
 
 ```
 .
@@ -26,7 +26,7 @@ The Parallel PDF Password Cracker harnesses the power of parallel processing to 
 └── ...
 ```
 
-## Features
+## 🛠️ Features
 
 - **Parallel Processing:** Leverages multiprocessing and multithreading for faster password cracking.
 - **Customizable Options:** Fine-tune chunk size, process count, and thread count for optimal performance.
@@ -34,7 +34,7 @@ The Parallel PDF Password Cracker harnesses the power of parallel processing to 
 - **Error Handling:** Handles common file-related errors gracefully.
 - **Logging:** Provides detailed records for debugging and analysis.
 
-## Usage
+## 🚀  Usage
 
 1. **Clone the repository:**
 
@@ -60,7 +60,7 @@ The Parallel PDF Password Cracker harnesses the power of parallel processing to 
     python pdf_cracker.py -pdf <path_to_pdf_file> -pass <path_to_password_list>
     ```
 
-## **Optional Arguments**
+## Optional Arguments
 
 - `-ch`: Size of password chunks for parallel processing (default: 10000).
 - `-pr`: Number of parallel processes (default: 50).
@@ -105,15 +105,12 @@ The `pdf_cracker.py` script is designed to efficiently crack the password of enc
 
 By understanding these key components, users can gain insights into the inner workings of the script and appreciate the efficiency achieved through parallel processing for password cracking.
 
-
-## 🤝 **Contributing**
+## 🤝 Contributing
 
 Contributions are welcome! Fork the repository, make your enhancements, and create a pull request.
 
 ### 📜 License
 
-⚖️This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+⚖️ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-<div align="center">
-</div>
 ```
