@@ -64,7 +64,7 @@ Harness the power of parallel processing to explore password cracking techniques
 **Example Usage:**
 
 ```bash
-python pdf_cracker.py -pdf "encrypted_file.pdf" -pass"passwords.txt" -ch 10000 -pr 50 -thr 20
+python pdf_cracker.py -pdf encrypted_file.pdf -pass passwords.txt -ch 10000 -pr 50 -thr 20
 ```
 
 ## 📚 How It Works
