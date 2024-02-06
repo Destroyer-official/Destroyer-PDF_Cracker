@@ -18,7 +18,7 @@ The Parallel PDF Password Cracker utilizes parallel processing to explore passwo
 
 ## 📂 Project Structure
 
-```
+```bash
 .
 ├── pdf_cracker.py 
 ├── README.md 
