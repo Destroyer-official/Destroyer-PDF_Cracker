@@ -52,7 +52,7 @@ Harness the power of parallel processing to explore password cracking techniques
 
 4. **✨ Execute the script:**
     ```bash
-    python pdf_cracker.py -pdf <path_to_pdf_file> -password <path_to_password_list>
+    python pdf_cracker.py -pdf <path_to_pdf_file> -pass <path_to_password_list>
     ```
 
 ## **Optional Arguments**
@@ -64,7 +64,7 @@ Harness the power of parallel processing to explore password cracking techniques
 **Example Usage:**
 
 ```bash
-python pdf_cracker.py -pdf "encrypted_file.pdf" -password "passwords.txt" -ch 5000 -pr 30 -thr 10
+python pdf_cracker.py -pdf "encrypted_file.pdf" -pass"passwords.txt" -ch 10000 -pr 50 -thr 20
 ```
 
 ## 📚 How It Works
