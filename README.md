@@ -113,4 +113,3 @@ Contributions are welcome! Fork the repository, make your enhancements, and crea
 
 ⚖️ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-```
