@@ -100,7 +100,7 @@ def get_command_line_arguments():
     """
     parser = argparse.ArgumentParser(description='Parallel PDF Password Cracker')
     parser.add_argument('-pdf', help='Path to the PDF file', default=None)
-    parser.add_argument('-password', help='Path to the file containing passwords', default=None)
+    parser.add_argument('-pass', help='Path to the file containing passwords', default=None)
     parser.add_argument('-ch', type=int, default=10000, help='Size of password chunks for parallel processing')
     parser.add_argument('-pr', type=int, default=50, help='Number of parallel processes')
     parser.add_argument('-thr', type=int, default=20, help='Number of threads per process')
@@ -122,7 +122,7 @@ def main():
     args = get_command_line_arguments()
 
     # Check if no command-line arguments are provided
-    if args.pdf is None and args.password is None:
+    if args.pdf is None and getattr(args, 'pass') is None:  # Update here to use getattr
         print_command_line_instructions()
         args = get_command_line_arguments()
 
@@ -130,7 +130,7 @@ def main():
     pdf_file_path = args.pdf if args.pdf else get_user_input("Enter the path to the PDF file ")
 
     # Prompt user for password list path if not provided
-    password_list_path = args.password if args.password else get_user_input("Enter the path to the password list", "dictionary.txt")
+    password_list_path = getattr(args, 'pass') if getattr(args, 'pass') else get_user_input("Enter the path to the password list", "passwords.txt")
 
     # Attempt to find the correct password
     correct_password = parallel_password_crack(
