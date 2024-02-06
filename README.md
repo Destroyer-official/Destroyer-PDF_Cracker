@@ -20,7 +20,14 @@ The Parallel PDF Password Cracker utilizes parallel processing to explore passwo
 
 ```
 .
-├── pdf_cracker.py
+├── destroyer-browser.py
+├── icons/
+│   ├── exit.png
+│   ├── home.svg
+│   ├── Back.svg
+│   ├── Forward.svg
+│   ├── reload.svg
+│   ├── new_tab.svg
 ├── README.md
 ├── requirements.txt
 └── ...
