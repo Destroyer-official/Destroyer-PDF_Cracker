@@ -1,10 +1,10 @@
- <div align="center">
-# 📕 EthicalPDFCracke 🔓 
+<div align="center">
+
+# 📕 EthicalPDFCracke 🔓
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.6%2B-blue.svg)](https://www.python.org/downloads/)
 
-</div>
 
 ---
 
