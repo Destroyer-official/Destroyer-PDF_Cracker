@@ -1,21 +1,22 @@
-<div align="center">
 
-# 🌐 Parallel PDF Password Cracker 🌐
+<div align="center">
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.6%2B-blue.svg)](https://www.python.org/downloads/)
 
 </div>
 
-⚠️ **Disclaimer:**
+---
+
+## Disclaimer
 
 **IMPORTANT:** Password cracking, even for educational purposes, can be risky and may violate ethical or legal standards. Always respect copyright and digital rights. Exercise caution and ensure you have the necessary permissions before attempting to crack any PDF passwords. This script is intended for educational use only to demonstrate parallel processing and password cracking techniques. It is not intended for malicious or unauthorized use.
 
-## 🌟 **Overview**
+## Overview
 
-Harness the power of parallel processing to explore password cracking techniques in a controlled educational setting. This Python script maximizes CPU utilization to accelerate password cracking attempts on encrypted PDF files.
+The Parallel PDF Password Cracker harnesses the power of parallel processing to explore password cracking techniques in a controlled educational setting. This Python script maximizes CPU utilization to accelerate password cracking attempts on encrypted PDF files.
 
-## 📂 **Project Structure**
+## Project Structure
 
 ```
 .
@@ -25,32 +26,36 @@ Harness the power of parallel processing to explore password cracking techniques
 └── ...
 ```
 
-##  🛠️ **Features**
+## Features
 
-- 🚀**Parallel Processing:** ⚡ Leverages multiprocessing and multithreading for faster password cracking.
-- **Customizable Options:** ⚙️ Fine-tune chunk size, process count, and thread count for optimal performance.
-- **User-friendly Interface:** 🎯 Interact with the script seamlessly through a clear command-line interface.
-- **Error Handling:** ⚠️ Handles common file-related errors gracefully.
-- **Logging:** 📝 Provides detailed records for debugging and analysis.
+- **Parallel Processing:** Leverages multiprocessing and multithreading for faster password cracking.
+- **Customizable Options:** Fine-tune chunk size, process count, and thread count for optimal performance.
+- **User-friendly Interface:** Interact with the script seamlessly through a clear command-line interface.
+- **Error Handling:** Handles common file-related errors gracefully.
+- **Logging:** Provides detailed records for debugging and analysis.
 
-## **Usage**
+## Usage
 
 1. **Clone the repository:**
+
     ```bash
     git clone https://github.com/Destroyer-official/EthicalPDFCracker.git
     ```
 
 2. **Navigate to the directory:**
+
     ```bash
     cd EthicalPDFCracker
     ```
 
-3. **📦 Install the required packages:**
+3. **Install the required packages:**
+
     ```bash
     pip install -r requirements.txt
     ```
 
-4. **✨ Execute the script:**
+4. **Execute the script:**
+
     ```bash
     python pdf_cracker.py -pdf <path_to_pdf_file> -pass <path_to_password_list>
     ```
