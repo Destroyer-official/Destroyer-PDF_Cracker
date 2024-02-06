@@ -20,9 +20,9 @@ The Parallel PDF Password Cracker utilizes parallel processing to explore passwo
 
 ```
 .
-├── pdf_cracker.py
-├── README.md
-├── requirements.txt
+├── pdf_cracker.py 
+├── README.md 
+├── requirements.txt 
 └── ...
 ```
 
